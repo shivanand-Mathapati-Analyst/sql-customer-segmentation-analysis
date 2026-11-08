@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗄️ Customer Segmentation Using RFM Analysis — SQL Server
+# 🗄️ Customer Segmentation & Revenue Analysis — SQL Server
 
 ### End-to-end SQL pipeline: raw retail data → cleaned star schema → RFM segmentation → 26-view reporting layer
 
@@ -39,7 +39,30 @@
 
 This project rebuilds the same **Online Retail RFM Customer Segmentation** analysis found in the Excel and Power BI versions of this portfolio — but entirely in **Microsoft SQL Server (T-SQL)**, from raw CSV import through to a full reporting layer of views and stored procedures. Every step — data cleaning, dimensional modeling, RFM scoring, and business reporting — is done in native SQL, with no external BI tool required to answer the core business questions.
 
+This project is a comprehensive **Customer Segmentation & Revenue Analysis solution built using Microsoft SQL Server** and the UK-based **Online Retail** dataset (2009–2011, UK retail operations). It transforms 541,909 transaction records into meaningful business insights, covering **customer segmentation, purchasing behavior, revenue contribution, customer retention, and churn analysis**.
+
+**This project is part of a three-tool analytics portfolio built on the same UK-based Online Retail dataset.**
+
+This project uses the same Online Retail dataset as my [Power BI]() and [Excel]() projects, demonstrating how the same business problem can be analyzed and solved using three different analytics tools: **SQL Server, Power BI, and Microsoft Excel**.
+
+The goal was to go beyond basic SQL queries and develop a structured, query-driven analytical solution to extract meaningful insights directly from transactional data. Leveraging **T-SQL, data cleaning, aggregations, joins, Common Table Expressions (CTEs), subqueries, window functions, and views**, this project applies **RFM (Recency, Frequency, Monetary) analysis** to segment customers based on purchasing behavior, identify high-value and at-risk customers, evaluate revenue contribution, analyze customer retention, and uncover actionable business opportunities.
+
 The single `.sql` script is fully documented inline: every query has its own heading and purpose comment, every cleaning decision is validated with a `COUNT`/`CHECK` query before and after, and the final section of the script contains a full write-up of findings, root causes, business insights, and recommendations — derived directly from the data itself.
+
+
+## 📌 Overview
+
+This project rebuilds the same **Online Retail RFM Customer Segmentation** analysis featured in the Excel and Power BI versions of this portfolio, but entirely in **Microsoft SQL Server (T-SQL)**. The solution covers the complete analytical workflow — from raw CSV data import and data cleaning to dimensional modeling, RFM scoring, customer segmentation, and a structured reporting layer using SQL views and stored procedures. Every stage is implemented using native SQL, without relying on external BI tools for the core analysis.
+
+Built on the UK-based **Online Retail** dataset (2009–2011, UK retail operations), the project transforms 541,909 transaction records into actionable business insights across **customer segmentation, purchasing behavior, revenue contribution, customer retention, and churn analysis**.
+
+**This project is part of a three-tool analytics portfolio built on the same UK-based Online Retail dataset.**
+
+The same business problem is independently explored using three different analytics tools: [Power BI](YOUR_POWER_BI_REPOSITORY_LINK), [Microsoft Excel](YOUR_EXCEL_REPOSITORY_LINK), and SQL Server. This demonstrates how different analytical platforms can be used to approach the same business challenge and derive meaningful insights.
+
+The objective was to go beyond basic SQL queries and develop an end-to-end, query-driven analytical solution. Using **T-SQL, data cleaning, aggregations, joins, Common Table Expressions (CTEs), subqueries, window functions, views, and stored procedures**, the project applies **RFM (Recency, Frequency, Monetary) analysis** to evaluate customer value, identify high-value and at-risk segments, measure revenue contribution, assess customer retention, and uncover opportunities for business growth.
+
+The entire workflow is documented in a single `.sql` script, with clearly structured sections, descriptive comments, and explanations of each analytical step. Data-cleaning decisions are supported by validation queries using `COUNT` and other checks before and after transformations. The script concludes with a comprehensive analysis of **key findings, root causes, business insights, and actionable recommendations**, all derived directly from the dataset.
 
 | | |
 |---|---|
