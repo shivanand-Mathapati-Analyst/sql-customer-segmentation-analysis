@@ -43,7 +43,7 @@ This project is a comprehensive **Customer Segmentation & Revenue Analysis solut
 
 **This project is part of a three-tool analytics portfolio built on the same UK-based Online Retail dataset.**
 
-This project uses the same Online Retail dataset as my [Power BI]() and [Excel]() projects, demonstrating how the same business problem can be analyzed and solved using three different analytics tools: **SQL Server, Power BI, and Microsoft Excel**.
+This project uses the same Online Retail dataset as my [Power BI](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) and [Excel](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis) projects, demonstrating how the same business problem can be analyzed and solved using three different analytics tools: **SQL Server, Power BI, and Microsoft Excel**.
 
 The goal was to go beyond basic SQL queries and develop a structured, query-driven analytical solution to extract meaningful insights directly from transactional data. Leveraging **T-SQL, data cleaning, aggregations, joins, Common Table Expressions (CTEs), subqueries, window functions, and views**, this project applies **RFM (Recency, Frequency, Monetary) analysis** to segment customers based on purchasing behavior, identify high-value and at-risk customers, evaluate revenue contribution, analyze customer retention, and uncover actionable business opportunities.
 
