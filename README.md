@@ -24,7 +24,6 @@
 - [Data Cleaning](#-data-cleaning)
 - [Tech Stack](#️-tech-stack)
 - [Repository Structure](#-repository-structure)
-- [How to Use](#-how-to-use)
 - [Key Findings](#-key-findings)
 - [Root Causes](#-root-causes)
 - [Business Insights](#-business-insights)
