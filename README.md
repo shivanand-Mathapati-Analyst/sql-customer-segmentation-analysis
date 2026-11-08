@@ -2,7 +2,7 @@
 
 # 🗄️ Customer Segmentation Using RFM Analysis — SQL Server
 
-### End-to-end T-SQL pipeline: raw retail data → cleaned star schema → RFM segmentation → 26-view reporting layer
+### End-to-end SQL pipeline: raw retail data → cleaned star schema → RFM segmentation → 26-view reporting layer
 
 [![Tool](https://img.shields.io/badge/Tool-Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![T-SQL](https://img.shields.io/badge/T--SQL-26%20Views%20%2B%202%20Procedures-217346?style=for-the-badge)](#-reporting-layer)
