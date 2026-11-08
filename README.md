@@ -49,21 +49,6 @@ The goal was to go beyond basic SQL queries and develop a structured, query-driv
 
 The single `.sql` script is fully documented inline: every query has its own heading and purpose comment, every cleaning decision is validated with a `COUNT`/`CHECK` query before and after, and the final section of the script contains a full write-up of findings, root causes, business insights, and recommendations — derived directly from the data itself.
 
-
-## 📌 Overview
-
-This project rebuilds the same **Online Retail RFM Customer Segmentation** analysis featured in the Excel and Power BI versions of this portfolio, but entirely in **Microsoft SQL Server (T-SQL)**. The solution covers the complete analytical workflow — from raw CSV data import and data cleaning to dimensional modeling, RFM scoring, customer segmentation, and a structured reporting layer using SQL views and stored procedures. Every stage is implemented using native SQL, without relying on external BI tools for the core analysis.
-
-Built on the UK-based **Online Retail** dataset (2009–2011, UK retail operations), the project transforms 541,909 transaction records into actionable business insights across **customer segmentation, purchasing behavior, revenue contribution, customer retention, and churn analysis**.
-
-**This project is part of a three-tool analytics portfolio built on the same UK-based Online Retail dataset.**
-
-The same business problem is independently explored using three different analytics tools: [Power BI](YOUR_POWER_BI_REPOSITORY_LINK), [Microsoft Excel](YOUR_EXCEL_REPOSITORY_LINK), and SQL Server. This demonstrates how different analytical platforms can be used to approach the same business challenge and derive meaningful insights.
-
-The objective was to go beyond basic SQL queries and develop an end-to-end, query-driven analytical solution. Using **T-SQL, data cleaning, aggregations, joins, Common Table Expressions (CTEs), subqueries, window functions, views, and stored procedures**, the project applies **RFM (Recency, Frequency, Monetary) analysis** to evaluate customer value, identify high-value and at-risk segments, measure revenue contribution, assess customer retention, and uncover opportunities for business growth.
-
-The entire workflow is documented in a single `.sql` script, with clearly structured sections, descriptive comments, and explanations of each analytical step. Data-cleaning decisions are supported by validation queries using `COUNT` and other checks before and after transformations. The script concludes with a comprehensive analysis of **key findings, root causes, business insights, and actionable recommendations**, all derived directly from the dataset.
-
 | | |
 |---|---|
 | 🗂️ **Raw records** | 541,909 rows → 401,560 cleaned transaction lines |
@@ -131,9 +116,9 @@ END
 | Segment | Customers | Revenue | Revenue % |
 |---|---:|---:|---:|
 | 🏆 Champions | 1,009 | £5.85M | 65.84% |
-| 💙 Loyal Customers | 874 | — | — |
-| 🔵 Potential Loyalists | 739 | — | — |
-| 🟠 At Risk | 933 | — | — |
+| 💙 Loyal Customers | 874 | £1.14M | 12.83% |
+| 🔵 Potential Loyalists | 739 | £566.77K | 6.38% |
+| 🟠 At Risk | 933 | £1.15 | 12.98% |
 | 🔴 Lost Customers | 816 | £175.17K | 1.97% |
 
 > One notable data-quality fix: 33 customers had return-only purchase histories (no completed, non-return orders). A naive `INNER JOIN`-based calculation left their Recency/Frequency/Monetary as `NULL`, which then caused a ranking-function edge case. The fix uses a `LEFT JOIN` with `COALESCE()` fallbacks (a dynamically calculated max-Recency for Recency, and `0` for Frequency/Monetary) so these customers are honestly and correctly classified as **Lost Customers**, rather than accidentally scoring well due to how blank values sort.
@@ -184,7 +169,6 @@ EXEC reporting.sp_GetCustomerSegmentDetails @Segment = 'Champions';
 | **Microsoft SQL Server** | Database engine, T-SQL |
 | **T-SQL window functions** | `NTILE()`, `ROW_NUMBER()`, `RANK()`, `SUM() OVER()` for scoring, deduplication, and Pareto/running-total analysis |
 | **Recursive CTEs** | Generating the Dim_Date calendar table |
-| **CSV (Online Retail, UCI)** | Source dataset |
 
 ---
 
@@ -195,23 +179,11 @@ Customer-Segmentation-SQL-Server/
 │
 ├── sql/
 │   └── Customer-Segmentation-SQLServer-FINAL.sql   # Full, single-file script
-├── raw data/
-│   └── OnlineRetail.csv                            # Source dataset
-├── images/
-│   └── data-model.png
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Use
-
-1. Open `Customer-Segmentation-SQLServer-FINAL.sql` in **SQL Server Management Studio (SSMS)**
-2. Update the raw file path if re-importing via SSMS's **Import Flat File** wizard (`original.OnlineRetail`)
-3. Run the script from top to bottom — it's organized into 8 numbered sections and is safe to run sequentially
-4. Query any of the 26 views under `reporting.*`, or call the two stored procedures directly, to explore the analysis
-
----
 
 ## 🧩 Key Findings
 
@@ -272,10 +244,10 @@ Part of a multi-tool Customer Segmentation portfolio, and a broader retail analy
 
 **Shivanand S. Mathapati**
 
-- 🌐 Portfolio: [shivanand-mathapati.vercel.app](https://shivanand-mathapati.vercel.app)
-- 💼 LinkedIn: *[Add link here]*
-- 📺 YouTube: *[Add link here]*
-- ✉️ Email: *[Add email here]*
+- 🌐 Portfolio:
+- 💼 LinkedIn: 
+- 📺 YouTube: 
+- ✉️ Email: 
 
 ---
 
