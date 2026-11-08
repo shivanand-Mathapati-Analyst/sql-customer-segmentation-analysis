@@ -228,13 +228,18 @@ Customer-Segmentation-SQL-Server/
 
 ## 🔗 Related Projects
 
-Part of a multi-tool Customer Segmentation portfolio, and a broader retail analytics portfolio built on two different datasets:
+Part of a multi-tool Customer Segmentation portfolio, built on the same Online Retail dataset:
 
 | Project | Tool | Link |
 |---|---|---|
-| 📊 Customer Segmentation Analysis (this same dataset) | Power BI | *[Add link here]* |
-| 📗 Customer Segmentation Analysis (this same dataset) | Excel | *[Add link here]* |
-| 📊 Superstore Sales Analysis | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-sales-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-sales-analysis-project) |
+| 📊 Customer Segmentation Analysis (this same dataset) | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) |
+| 📗 Customer Segmentation Analysis (this same dataset) | Excel | [github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis) |
+
+Also part of a broader retail analytics portfolio built on the Superstore dataset:
+
+| Project | Tool | Link |
+|---|---|---|
+| 📊 Superstore Sales Analysis | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-sales-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) |
 | 🗄️ Superstore Sales Analysis | SQL Server | [github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis) |
 | 📗 Superstore Sales Analysis | Excel | [github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) |
 
