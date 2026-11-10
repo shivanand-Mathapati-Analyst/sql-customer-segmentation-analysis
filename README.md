@@ -227,20 +227,30 @@ Customer-Segmentation-SQL-Server/
 
 ## 🔗 Related Projects
 
-Part of a multi-tool Customer Segmentation portfolio, built on the same Online Retail dataset:
+### 🛒 Customer Segmentation (RFM Analysis): UK Online Retail dataset
+
+Part of a multi-tool Customer Segmentation project, built on the same dataset:
 
 | Project | Tool | Link |
 |---|---|---|
-| 📊 Customer Segmentation Analysis (this same dataset) | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) |
-| 📗 Customer Segmentation Analysis (this same dataset) | Excel | [github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis) |
+| 📊 Customer Segmentation Analysis | Power BI | [powerbi-customer-segmentation-analysis](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) |
+| 📗 Customer Segmentation Analysis | Excel | [excel-customer-segmentation-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis) |
 
-Also part of a broader retail analytics portfolio built on the Superstore dataset:
+### 📦 Superstore Sales Analysis: Sample Superstore dataset
+
+Part of a broader retail analytics portfolio, built in three tools:
 
 | Project | Tool | Link |
 |---|---|---|
-| 📊 Superstore Sales Analysis | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-sales-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) |
-| 🗄️ Superstore Sales Analysis | SQL Server | [github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis) |
-| 📗 Superstore Sales Analysis | Excel | [github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) |
+| 📊 Superstore Sales Analysis | Power BI | [powerbi-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) |
+| 🗄️ Superstore Sales Analysis | SQL Server | [sql-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis) |
+| 📗 Superstore Sales Analysis | Excel | [excel-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) |
+
+### 👥 HR Analytics: Employee Attrition, Workforce & Compensation Analysis
+
+| Project | Tool | Link |
+|---|---|---|
+| 👥 HR Analytics: Attrition, Workforce & Compensation | SQL Server + Power BI | [hr-analytics-attrition-sql-powerbi](https://github.com/shivanand-Mathapati-Analyst/hr-attrition-analytics-sql-powerbi) |
 
 ---
 
